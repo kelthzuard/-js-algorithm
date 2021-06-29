@@ -1,4 +1,5 @@
 //地址：https://leetcode-cn.com/problems/rotate-matrix-lcci/
+// 最关键的就是 row=col, col=n-1-row,每次不停的做替换
 //思路：想象一个奇数边长的正方形由四个长方形拼凑，每次由长方形进行旋转。
 //row为宽，col为长，所以col需要(matrix.length+1)/2
 var rotate = function(matrix) {
